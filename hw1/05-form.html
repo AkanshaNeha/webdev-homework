@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>05 - Form</title>
-    <!-- <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../hw2/05-form.css" /> -->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../hw2/05-form.css" />
   </head>
   <body>
-    <main>
-      <form action="">
-        <h1>Registration Form</h1>
+    <main class="main">
+    <div class="container">
+      <form action="" class="form">
+        <h1>REGISTRAION FORM</h1>
         <!-- Add your code here -->
         <div>
           <label for="Username">Username:</label>
@@ -20,23 +21,25 @@
         <br />
         <div>
           <label for="Email">Email:</label>
-          <input type="Email" id="Email" name="Email" />
+          <input type="Email" id="Email" name="Email" class="email"/>
         </div>
         <br />
         <div>
           <label for="Password">Password:</label>
-          <input type="Password" id="Password" name="Password" />
+          <input type="Password" id="Password" name="Password" class="password"/>
         </div>
         <br />
+        
         <fieldset>
           <legend>Would you like to sign up for the newsletter?</legend>
           <div>
             <input type="radio" id="option1" name="newsletter" value="yes" />
-            <label for="option1">Yes, sign me up</label>
+            <label for="option1">Yes, sign me up</label><br>
             <input type="radio" id="option2" name="newsletter" value="no" />
             <label for="option2">No, thank you</label>
           </div>
         </fieldset>
+        
         <br />
         <div>
           <label for="date">Date:</label>
@@ -44,10 +47,11 @@
         </div>
         <br />
         <div>
-          <input type="submit" value="Submit" />
-          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" class="btn-primary"/>
+          <input type="reset" value="Reset" class="btn-secondary"/>
         </div>
       </form>
+    </div>
     </main>
   </body>
 </html>

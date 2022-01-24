@@ -1,11 +1,36 @@
 .container {
+  outline: grey;
+  outline-width: 2px;
+  border-radius: 10px;
+  border: 2px solid darkgrey;
   width: 300px;
+  text-align: center;
+}
+h6 {
+  font-weight: bold;
+  font-size: 15px;
 }
 
-.image {
-  width: 100%;
+img {
+  width: 95%;
 }
-
-.btn {
-  width: 100%;
+.container_p {
+  width: 95%;
+  text-align: center;
+  margin: 10px;
+}
+.button1 {
+  width: 95%;
+  margin: 10px;
+  background-color: darkslateblue;
+  color: white;
+  padding: 10px;
+}
+.button1:hover {
+  background-color: orange;
+  color: black;
+}
+p {
+  text-align: left;
+  font-size: 15px;
 }
