@@ -14,8 +14,51 @@
   </head>
   <body>
     <main>
-      <form>
+      <form class="bg-light border rounded mx-auto mt-5 p-2">
         <h1>Contact Form</h1>
+        <div class="row mb-3">
+          <label for="Username3" class="col-sm-3 col-form-label">Username:</label>
+          <div class="col-sm-9">
+           <input type="Username" class="form-control" id="Username3">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="Email" class="col-sm-3 col-form-label">Email:</label>
+          <div class="col-sm-9">
+           <input type="email" class="form-control" id="Email">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="Password" class="col-sm-3 col-form-label">Password:</label>
+          <div class="col-sm-9">
+           <input type="password" class="form-control" id="Password">
+          </div>
+        </div>
+        <fieldset >
+          <legend class="col-sm-9 col-form-label">Would you like to sign up for the newsletter?</legend>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Yes, sign me up
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+            <label class="form-check-label" for="flexRadioDefault2">
+              No, thank you
+            </label>
+          </div>
+        </fieldset>
+        <div class="row mb-3">
+          <label for="Date" class="col-sm-3 col-form-label">Date:</label>
+          <div class="col-sm-9">
+           <input type="date" class="form-control" id="Date">
+          </div>
+        </div>
+    
+         <button type="submit" class="btn btn-primary  col-6 p-2 ">Submit</button>
+         <button type="reset" class="btn btn-secondary  col-5 p-2">Reset</button>
+       
       </form>
     </main>
   </body>
