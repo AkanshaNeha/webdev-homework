@@ -11,6 +11,8 @@
   font-size: 16px;
   font-weight: bold;
   border: 2px solid gainsboro;
+  display: block;
+  text-align: left;
 }
 h1 {
   text-align: center;
@@ -24,18 +26,31 @@ fieldset {
 
 input[type="text"] {
   margin-left: 5px;
+  width: 60%;
+  padding: 3px;
+  margin-bottom: 10px;
+  border: 2px solid #cccccc;
 }
 input[type="email"] {
   margin-left: 40px;
+  width: 60%;
+  margin-bottom: 10px;
+  border: 2px solid #cccccc;
+  padding: 3px;
 }
 input[type="password"] {
   margin-left: 7px;
+  width: 60%;
+  margin-bottom: 10px;
+  border: 2px solid #cccccc;
+  padding: 3px;
 }
 input[type="Date"] {
   text-align: left;
   margin-left: 50px;
-  padding: 0px;
-  width: 175px;
+  padding: 3px;
+  width: 60%;
+  border: 2px solid #cccccc;
 }
 .btn-primary {
   color: white;
