@@ -12,3 +12,42 @@
   background-color: var(--purple);
   color: var(--white);
 }
+.element {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 225px;
+  padding: 5px 5px 5px 5px;
+  border: 5px solid white;
+  max-height: 400px;
+  text-align: center;
+}
+.name {
+  font: black;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5px 5px 5px 5px;
+}
+
+#namediv:hover {
+  color: white;
+}
+#maindiv:hover {
+  background-color: purple;
+}
+#maindiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 235px;
+  border: 5px solid white;
+  margin: 5px;
+  max-height: 400px;
+  padding: 5px 5px 5px 5px;
+}
+#namediv {
+  font: black;
+  text-align: center;
+  font-size: 1.25em;
+  padding: 10px 10px 10px 10px;
+}
